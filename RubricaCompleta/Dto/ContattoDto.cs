@@ -2,6 +2,7 @@
 {
     public class ContattoDto
     {
+        public int UserId { get; set; }
         public string Nome { get; set; }
         public string Cognome { get; set; }
         public string? NumeroTelefonoAziendale { get; set; }

@@ -6,6 +6,7 @@ public class Mapper
     {
         ContattoDto dto = new ContattoDto()
         {
+            UserId = entity.UserId,
             Nome = entity.Nome,
             Cognome = entity.Cognome,
             NumeroTelefonoAziendale = entity.NumeroTelefonoAziendale,
@@ -20,6 +21,7 @@ public class Mapper
     {
         Contatto entity = new Contatto()
         {
+            UserId = dto.UserId,
             Nome = dto.Nome,
             Cognome = dto.Cognome,
             NumeroTelefonoAziendale = dto.NumeroTelefonoAziendale,
